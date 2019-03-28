@@ -43,11 +43,11 @@ CREATE TABLE `speedtab` (
 --
 
 INSERT INTO `speedtab` (`id`, `link`, `location`, `host`, `speed`, `type`, `year`, `month`, `date`) VALUES
-(42, 'https://par-fr-ping.vultr.com/vultr.com.100MB.bin', 'Paris', 'vultr', 11.8, 'MB/s', 2019, 3, 22),
-(43, 'https://fra-de-ping.vultr.com/vultr.com.100MB.bin', 'Frankfurt', 'vultr', 10, 'MB/s', 2019, 3, 22),
-(44, 'https://ams-nl-ping.vultr.com/vultr.com.100MB.bin', 'Amsterdam', 'vultr', 10.9, 'MB/s', 2019, 3, 22),
-(45, 'https://lon-gb-ping.vultr.com/vultr.com.100MB.bin', 'London', 'vultr', 12.1, 'MB/s', 2019, 3, 22),
-(46, 'https://nj-us-ping.vultr.com/vultr.com.100MB.bin', 'New_Jersey', 'vultr', 22.4, 'MB/s', 2019, 3, 22);
+(1, 'https://par-fr-ping.vultr.com/vultr.com.100MB.bin', 'Paris', 'vultr', 11.8, 'MB/s', 2019, 3, 22),
+(2, 'https://fra-de-ping.vultr.com/vultr.com.100MB.bin', 'Frankfurt', 'vultr', 10, 'MB/s', 2019, 3, 22),
+(3, 'https://ams-nl-ping.vultr.com/vultr.com.100MB.bin', 'Amsterdam', 'vultr', 10.9, 'MB/s', 2019, 3, 22),
+(4, 'https://lon-gb-ping.vultr.com/vultr.com.100MB.bin', 'London', 'vultr', 12.1, 'MB/s', 2019, 3, 22),
+(5, 'https://nj-us-ping.vultr.com/vultr.com.100MB.bin', 'New_Jersey', 'vultr', 22.4, 'MB/s', 2019, 3, 22);
 
 --
 -- Indexes for dumped tables
@@ -67,7 +67,7 @@ ALTER TABLE `speedtab`
 -- AUTO_INCREMENT for table `speedtab`
 --
 ALTER TABLE `speedtab`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=251;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
