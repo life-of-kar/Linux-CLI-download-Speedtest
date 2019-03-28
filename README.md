@@ -1,4 +1,4 @@
-# Download Speedtest Advance ver.
+# Linux CLI Download Speedtest
 
 The script will let you know the avg speed at which each link downloads on your server/localhost.
 
