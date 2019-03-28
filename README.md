@@ -14,7 +14,9 @@ Linux Server With LAMP configuration.
 
 There is a ready list of 63 test files to download from around the globe from different hosts.
 
-The format of the file is > Link _space_ Location _space_ Host
+The format of the file is,
+
+> Link _space_ Location _space_ Host
 
 An SQL file to dump Table and some contents to the DB.
 
